@@ -1,0 +1,28 @@
+$primaryColor: #FF0000;
+$secondaryColor: #CC0000;
+$primaryOptionalColor: #FFDE00;
+$secondaryOptionalColor: #B3A125;
+$color:#3B4CCA;
+
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: $primaryOptionalColor;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $primaryColor;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

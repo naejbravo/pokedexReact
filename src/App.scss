@@ -1,0 +1,47 @@
+@import "./index.scss";
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .TitleSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+         align-items: center;
+        h1{
+            margin: 10px;
+            text-align: center;
+        }
+        input{
+            margin: 10px;
+            height: 50px;
+            font-size: 2rem;
+            text-align: center;
+            width: 200px;
+        }
+        button{
+            background-color: $secondaryColor;
+            height: 30px;
+            width: 200px;
+        }
+    }
+    .DisplaySection{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        background-color: $secondaryColor;
+        margin: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        &__card{
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
